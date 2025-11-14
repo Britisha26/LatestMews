@@ -1,0 +1,87 @@
+ body {
+            background: url(cat.jpg) no-repeat right center fixed;
+            background-size: cover;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ffffffbb;
+            font-size: 1.25rem;
+            min-height: 100vh;
+            margin:0;
+        }
+
+        .card {
+            background-color: rgba(106, 101, 90, 0.514);
+            display: inline-block;
+            color: #e7e2e2bb;
+            font-family: "Zen Dots", serif;
+            text-align: center;
+            padding: 1.25rem 4rem 2rem;
+            min-width: 22rem;
+            max-width: 38rem;
+            border-radius: 8px;
+            margin-top: auto;
+        }
+
+        h3 {
+            font-weight: 500;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
+
+        button {
+            font-family: "Audiowide", serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2.25px;
+            margin-bottom: 0.9rem;
+            padding: 1rem 2rem;
+            background: linear-gradient( rgb(101, 85, 60), rgb(186, 121, 40), rgb(107, 62, 10));
+            background: linear-gradient( rgb(116, 116, 116), rgb(43, 42, 42), rgb(0, 0, 0));
+            color: #c4c4c4f4;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background: linear-gradient(rgb(136, 136, 135), rgb(49, 48, 48), black); 
+        }
+ 
+        .factoid {
+            display: none;
+            color: #ffffffbb;
+            font-family: 'Oxanium';
+            font-weight: 700;
+            font-size: 1.25rem;
+            text-align: center;
+            text-justify: auto;
+            letter-spacing: 0.5px;
+        }
+
+        .card-footer {
+            background: linear-gradient(90deg,rgb(11, 8, 5), 50%, rgb(0, 0, 0));
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        .card-text {
+            font-size: 0.8rem;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+@media (max-width: 600px) {
+  body {
+    background-size: cover; 
+    background-position: top; 
+    }
+}
+
+            /* color: #facfb2d2; */
