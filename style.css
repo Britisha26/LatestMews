@@ -1,5 +1,5 @@
  body {
-            background: url(cat.jpg) no-repeat right center fixed;
+            background: url(images/cat.jpg) no-repeat right center fixed;
             background-size: cover;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             display: flex;
