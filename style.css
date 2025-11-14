@@ -13,68 +13,102 @@
         }
 
         .card {
-            background-color: rgba(106, 101, 90, 0.514);
-            display: inline-block;
-            color: #e7e2e2bb;
+            background: rgba(0, 0, 0, 0.58);
+            backdrop-filter: blur(1px);
+            padding: 2rem 3.2rem;
+            border-radius: 14px;
+            width: min(90%, 32rem);
+            color: #f0f0f0d7;
             font-family: "Zen Dots", serif;
             text-align: center;
-            padding: 1.25rem 4rem 2rem;
-            min-width: 22rem;
-            max-width: 38rem;
-            border-radius: 8px;
-            margin-top: auto;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45),
+                        inset 0 0 35px rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: auto auto 0 auto; 
+            margin-top: 20vh;
         }
 
         h3 {
+            font-family: "Zen Dots", serif;
+            font-size: 2rem;
+            letter-spacing: 2.5px;
             font-weight: 500;
-            letter-spacing: 2px;
             margin-bottom: 2rem;
-            font-size: 1.8rem;
+            color: #f6f6f6;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
         }
+
 
         button {
             font-family: "Audiowide", serif;
             font-weight: 900;
             text-transform: uppercase;
-            letter-spacing: 2.25px;
-            margin-bottom: 0.9rem;
-            padding: 1rem 2rem;
-            background: linear-gradient( rgb(101, 85, 60), rgb(186, 121, 40), rgb(107, 62, 10));
-            background: linear-gradient( rgb(116, 116, 116), rgb(43, 42, 42), rgb(0, 0, 0));
-            color: #c4c4c4f4;
-            border-radius: 8px;
+            letter-spacing: 2.4px;
+            padding: 1rem 2.8rem;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.12),
+                rgba(0, 0, 0, 0.8) 60%
+            );
+            color: #aba9a9;
+            backdrop-filter: blur(4px);
+
+            box-shadow:
+                0 3px 10px rgba(0, 0, 0, 0.6),
+                inset 0 0 12px rgba(255, 255, 255, 0.05);
+
+            cursor: pointer;
+            transition: all 0.3s ease;
         }
 
         button:hover {
-            background: linear-gradient(rgb(136, 136, 135), rgb(49, 48, 48), black); 
-        }
- 
-        .factoid {
-            display: none;
-            color: #ffffffbb;
-            font-family: 'Oxanium';
-            font-weight: 700;
-            font-size: 1.25rem;
-            text-align: center;
-            text-justify: auto;
-            letter-spacing: 0.5px;
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.22),
+                rgba(0, 0, 0, 0.9) 70%
+            );
+            color: #ffffff;
+            box-shadow:
+                0 6px 18px rgba(0, 0, 0, 0.75),
+                inset 0 0 18px rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
         }
 
-        .card-footer {
-            background: linear-gradient(90deg,rgb(11, 8, 5), 50%, rgb(0, 0, 0));
-            width: 100%;
+        .factoid {
+            display: none;
+            font-family: 'Oxanium', sans-serif;
+            font-weight: 600;
+            font-size: 1.25rem;
+            line-height: 1.55;
+            color: #f1f1f1db;
+            letter-spacing: 0.6px;
+            margin-top: 1.5rem;
             text-align: center;
-            bottom: 0;
-            padding: 1rem;
+        }
+
+
+        .card-footer {
+            width: 100%;
+            padding: 1.4rem 0;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(4px);
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #e5e5e5d3;
+            font-size: 0.9rem;
+            letter-spacing: 0.6px;
             margin-top: auto;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
         }
 
         .card-text {
-            font-size: 0.8rem;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            opacity: 0.85;
         }
+
 
 
 @media (max-width: 600px) {
@@ -84,4 +118,3 @@
     }
 }
 
-            /* color: #facfb2d2; */
